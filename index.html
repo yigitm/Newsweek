@@ -15,29 +15,41 @@
     <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/bootstrap-reboot.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Newsweek</title>
   </head>
   <body>
-    <header class="container-fluid">
-      <div
-        class="container d-md-none d-lg-flex p-2 justify-content-between bg-danger"
-      >
-        <h6>Date</h6>
-        <h6>Newsweek</h6>
-        <h6>LOGIN</h6>
-        <h6>SUBSCRIBE</h6>
-      </div>
-      <!-- Header Navigation -->
-      <div class="d-lg-none  d-flex p-2 justify-content-between bg-danger">
-        <div class="d-flex">
-          <h6>Newsweek</h6>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg py-0 bg-global-red">
+          <img
+          class="w-25 ml-n3"
+          src="images/newsweek-logo.svg"
+          alt="images"
+        />
+        <div class="d-flex justify-content-center align-items-center">
+          <i class="fas fa-user mr-n2"></i>
+          <!-- toogle menubar -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <button
+            type="button"
+            class="btn btn-sm btn-subscribe text-uppercase py-0 px-2 mr-3"
+            >
+            30 Day Free Trial <i class="fas fa-angle-right"></i>
+          </button>
+          <i class="fas fa-bars"></i>
         </div>
-        <p class="d-inline">
-          <span>LOGIN</span>
-          <span>SUBSCRIBE</span>
-          <span>Menu Bar</span>
-        </p>
-      </div>
+        
+        </button>
+        <div class="collapse navbar-collapse"></div>
+      </nav>
     </header>
     <nav class="container-fluid d-none d-lg-block">
       <div
@@ -58,532 +70,218 @@
       </div>
     </nav>
     <main class="container-fluid">
-      <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-3 color-1">
-            <div class="d-flex flex-column align-items-center">
-              <h6>FEATURED</h6>
-              <div class="card mb-2 mw-25">
-                <img
-                  src="images/mitch-mcconnell.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+          <article
+            class="col-12 col-md-6 col-lg-3 order-2 order-md-1 order-lg-1"
+          >
+            <h1 class="title-global">featured stories</h1>
+            <figure class="figure">
+              <div class="position-relative text-center w-100">
+                <img src="images/fathers-day-single-mom-motherhood.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2  color-global-red">my turn</div>
               </div>
-              <div class="card mb-2 mw-25">
-                <img
-                  src="images/mitch-mcconnell.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+             <h5 class="text-lg-left font-weight-bold">'I'm a Single Mom, This Is Why I Dread Father's Day'</h5>
+              <figcaption class="figure-caption">My fiance left me when I was seven months pregnant. To say the split was a shock is an understatement, but never in a million years did I consider he would cut off contact with me and our son.</figcaption>
+            </figure>
+          </article>
+          <article
+            class="col-12 col-md-6 col-lg-6 order-1 order-md-2 order-lg-2"
+          >
+            <h1 class="title-global">top story</h1>
+            <figure class="figure">
+              <div class="position-relative text-center">
+                <img src="images/ag-bill-barr.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2 color-global-red">u.s</div>
               </div>
-              <div class="card mb-2 mw-25">
-                <img
-                  src="images/mitch-mcconnell.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-              <div class="card mb-2 mw-25">
-                <img
-                  src="images/mitch-mcconnell.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-              <div class="card mb-2 mw-25">
-                <img
-                  src="images/mitch-mcconnell.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-              <div class="card mb-2 mw-25">
-                <img
-                  src="images/mitch-mcconnell.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-              <div class="card mb-2 mw-25">
-                <img
-                  src="images/mitch-mcconnell.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-              <div class="card mb-2 mw-25">
-                <img
-                  src="images/mitch-mcconnell.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
+             <h5 class="text-lg-left font-weight-bold">U.S. Attorney Geoffrey Berman Fired By Trump, William Barr Says In Letter</h5>
+              <figcaption class="figure-caption">The attorney general named Deputy U.S. Attorney Audrey Strauss as acting U.S. Attorney in the Southern District of New York.</figcaption>
+            </figure>
+          </article>
+          <div class="col-12 col-lg-3 order-5 order-md-9 order-lg-3 p-2 color-3">
+            <h1>debate-a</h1>
           </div>
-          <div class="col-md-6 col-lg-6 color-2">
-            <div class="d-flex flex-column align-content-center">
-              <h6 class="col order-first">TOP STORY</h6>
-              <div class="card max-vw-100 col order-first">
-                <img
-                  src="images/new-jersey-state-police-trooper.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+          <article
+            class="col-12 col-md-6 col-lg-3 order-3 order-md-3 order-lg-4 color-1"
+          >
+           <figure class="figure">
+              <div class="position-relative text-center">
+                <img src="images/police-line-stock-photo.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2 color-global-red">news</div>
               </div>
-              <h6>MY TURN</h6>
-              <div class="d-flex justify-content-between">
-                <div class="card" style="width: 10rem;">
-                  <img
-                    src="images/disability-soccer-personal-development-coaching.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="card" style="width: 10rem;">
-                  <img
-                    src="images/disability-soccer-personal-development-coaching.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="card" style="width: 10rem;">
-                  <img
-                    src="images/disability-soccer-personal-development-coaching.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
+             <h5 class="text-lg-left font-weight-bold">Multiple People Stabbed at Site of U.K. Black Lives Matter Demonstration</h5>
+              <figcaption class="figure-caption">Multiple people were stabbed Saturday at the site of a recurring Black Lives Matter demonstration in Reading, a large town in England.</figcaption>
+            </figure>
+
+            <figure class="figure">
+              <div class="position-relative text-center">
+                <img src="images/tulsa-rally.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2 color-global-red">u.s.</div>
               </div>
-              <!-- flex end -->
-              <h6>CULTURE AND TRAVEL</h6>
-              <div class="d-flex justify-content-between">
-                <div class="card" style="width: 10rem;">
-                  <img
-                    src="images/disability-soccer-personal-development-coaching.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="card" style="width: 10rem;">
-                  <img
-                    src="images/disability-soccer-personal-development-coaching.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="card" style="width: 10rem;">
-                  <img
-                    src="images/disability-soccer-personal-development-coaching.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
+             <h5 class="text-lg-left font-weight-bold">Trump Says 'We Won on DACA' at Tulsa Rally After Supreme Court Ruling</h5>
+              <figcaption class="figure-caption">After the Supreme Court ruled against President Donald Trump's plans to phase out the Deferred Action for Childhood Arrivals program, he told the Tulsa crowd "We won on DACA."</figcaption>
+            </figure>
+          </article>
+          <article
+            class="col-12 col-md-6 col-lg-3 order-4 order-md-5 order-lg-7 color-1"
+          >
+              <figure class="figure">
+              <div class="position-relative text-center">
+                <img src="images/refugee-iraq-america.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2 color-global-red">my turn</div>
               </div>
-              <!-- flex end -->
-            </div>
-            <h6>MORE STORIES</h6>
-            <ul class="list-unstyled">
-              <li class="media">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media my-4">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media my-4">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media my-4">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-              <li class="media my-4">
-                <img
-                  src="images/seattle.jpg"
-                  class="align-self-start mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at.
-                </div>
-              </li>
-            </ul>
+             <h5 class="text-lg-left font-weight-bold">'I'm an Iraqi Refugee Who Settled in the U.S. Now I Help Trauma Victims'</h5>
+              <figcaption class="figure-caption">People who do not agree with refugees may not realize that refugees are vulnerable, they are being forced to leave. Imagine living in a house, living normally and somebody comes in and says, "you need to leave within 24 hours".</figcaption>
+            </figure>
+
+            <figure class="figure">
+              <div class="position-relative text-center">
+                <img src="images/harris-biden.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2 color-global-red">u.s</div>
+              </div>
+             <h5 class="text-lg-left font-weight-bold">'I'm an Iraqi Refugee Who Settled in the U.S. Now I Help Trauma Victims'</h5>
+              <figcaption class="figure-caption">People who do not agree with refugees may not realize that refugees are vulnerable, they are being forced to leave. Imagine living in a house, living normally and somebody comes in and says, "you need to leave within 24 hours".</figcaption>
+            </figure>
+
+          </article>
+          <article
+            class="col-12 col-md-6 col-lg-3 order-6 order-md-7 order-lg-10 color-1"
+          >
+           <figure class="figure">
+              <div class="position-relative text-center">
+                <img src="images/marymount-international-school-rome.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2 color-global-blue">sponsored insight</div>
+              </div>
+             <h5 class="text-lg-left font-weight-bold">What is an IB Private Education and Why is it so Important?</a></h5>
+              <figcaption class="figure-caption">The aim of the IB is to offer the best possible international education for students of all backgrounds and from every part of the world. Find out more.</figcaption>
+            </figure>
+
+            <figure class="figure">
+                <img src="images/physical-rehabilitation-centers-2020.jpg" class="figure-img img-fluid w-100" alt="image">
+             <h5 class="text-lg-left font-weight-bold">Best Physical Rehab Centers</a></h5>
+              <figcaption class="figure-caption">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking of Best Physical Rehabilitation Centers in the United States 2020. If you work in this field, please participate in our survey.</figcaption>
+            </figure>
+
+            <figure class="figure">
+                <img src="images/newsweek-amplify.png" class="figure-img img-fluid w-100" alt="image">
+             <h5 class="text-lg-left font-weight-bold">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</a></h5>
+              <figcaption class="figure-caption">Newsweek AMPLIFY, the company's performance marketing business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies.</figcaption>
+            </figure>            
+          </article>
+          <article
+            class="col-12 col-md-12 col-lg-3 order-10 order-md-10 order-lg-6 color-3"
+          >
+            <figure class="figure">
+              <div class="position-relative text-center">
+                <img src="images/san-diego-global-knowledge-university.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2 color-global-blue">sponsored insight</div>
+              </div>
+             <h5 class="text-lg-left font-weight-bold">Want to Learn to Code Online?</h5>
+              <figcaption class="figure-caption">If you are thinking about changing career or you have recently lost your job, this might be the time to think about a career in coding.</figcaption>
+            </figure>
+
+            <figure class="figure">
+              <div class="position-relative text-center">
+                <img src="images/infection-prevention-products-banner.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2 color-global-blue">rankings</div>
+              </div>
+             <h5 class="text-lg-left font-weight-bold">Best Infection Prevention Products</h5>
+              <figcaption class="figure-caption">During the coronavirus outbreak, health care is more important than ever. In Newsweek's first Best Health Care series, we highlight the best infection prevention products.</figcaption>
+            </figure>
+
+            <figure class="figure">
+                <img src="images/addiction-treatment-centers-2020.jpg" class="figure-img img-fluid w-100" alt="image">
+             <h5 class="text-lg-left font-weight-bold">Best Addiction Treatment Centers</h5>
+              <figcaption class="figure-caption">Newsweek and Statista are partnering to establish a ranking of Best Addiction Treatment Centers in the United States. If you work in this field, this survey is for you.</figcaption>
+            </figure>
+
+            <figure class="figure">
+              <div class="position-relative text-center">
+                <img src="images/worlds-best-specialized-hospitals-2021.png" class="figure-img img-fluid w-100" alt="image">
+                <div class="img-tag ml-n3 p-2 color-global-blue">survey</div>
+              </div>
+             <h5 class="text-lg-left font-weight-bold">World's Best Specialized Hospitals 2021</h5>
+              <figcaption class="figure-caption">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking of World's Best Specialized Hospitals 2021. If you work in this field, please participate in our survey.</figcaption>
+            </figure>
+          </article>
+          
+          <div
+            class="col-12 col-md-6 col-lg-6 order-7 order-md-8 order-lg-11 color-2"
+          >
+            <h1>TOP STORY-D</h1>
+            
           </div>
-          <div class="col-md-12 col-lg-3 color-3">
-            <h6>THE DEBATE</h6>
-            <div class="media">
-              <img
-                src="images/rachel-bovard.png"
-                class="align-self-center mr-3 w-25"
-                alt="..."
-              />
-              <div class="media-body">
-                <h5 class="mt-0">Media Object</h5>
+
+          <article
+            class="col-12 col-md-6 col-lg-6 order-8 order-md-4 order-lg-5 color-2"
+          >
+            <h1 class="title-global">my turn</h1>    
+            <div class="card-group mb-3">
+              
+              <div class="card card-mw-767px mr-3">
+                  <img class="card-img-top" src="images/cancer-sarcoma-dance.jpg" alt="image">
+                      <div class="card-body p-0">
+                          <p class="card-text card-text-customs h5 pt-3"><small class="text-muted">'I Beat Cancer Twice, Toured The World And Now Have A Show In Vegas'</small></p>
+                      </div>
+              </div>
+              <div class="card card-mw-767px mr-3">
+                  <img class="card-img-top" src="images/shipwreck-mexico-manuel-polanco.jpg" alt="image">
+                      <div class="card-body p-0">
+                          <p class="card-text card-text-customs h5 pt-3"><small class="text-muted">'I Discovered a 200-Year-Old Shipwreck Off the Coast of Mexico'</small></p>
+                      </div>
+              </div> 
+              <div class="card card-mw-767px">
+                  <img class="card-img-top" src="images/barbie-lockdown-parody-family.png" alt="image">
+                      <div class="card-body p-0">
+                          <p class="card-text card-text-customs h5 pt-3"><small class="text-muted">'I'm a Grandmother Re-creating Lockdown Life With My 'Quarantine Barbies''</small></p>
+                      </div>
               </div>
             </div>
-            <hr class="my-1" />
-            <div class="media">
-              <div class="media-body w-25 p-0">
-                <h5 class="mt-0 mb-1">Media object</h5>
-              </div>
-              <img src="images/neil-chilson.png" class="align-self-center ml-3
-              w-25 alt="..." />
+                  
+            <h1 class="title-global">culture  & travel</h1> 
+            <div class="card-group">
+              <div class="card card-mw-767px mr-3">           
+                <div class="position-relative text-center">
+                    <img class="card-img-top" src="images/cul-uncharted-culturaladaptations-banner.jpg" alt="image">
+                    <div class="card-tag ml-n3 p-1">travel</div>
+                </div>
+                <div class="card-body p-0">
+                    <p class="card-text card-text-customs h5 pt-3"><small class="text-muted">Cultural Adaptations in the Time of Corona</small></p>
+                </div>
             </div>
-            <h6>OPINION</h6>
-            <ul class="list-unstyled">
-              <li class="media">
-                <img
-                  src="images/j-keenan.png"
-                  class="align-self-center mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
+            <div class="card card-mw-767px mr-3">
+                <div class="position-relative text-center">
+                  <img class="card-img-top" src="images/traveler-wears-mask-airport.jpg" alt="image">
+                  <div class="card-tag ml-n3 p-1">travel</div>
                 </div>
-              </li>
-              <li class="media my-4">
-                <img
-                  src="images/j-keenan.png"
-                  class="align-self-center mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                </div>
-              </li>
-              <li class="media">
-                <img
-                  src="images/j-keenan.png"
-                  class="align-self-center mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                </div>
-              </li>
-            </ul>
-            <ul class="list-unstyled">
-              <li class="media">
-                <img
-                  src="images/j-keenan.png"
-                  class="align-self-center mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                </div>
-              </li>
-              <li class="media my-4">
-                <img
-                  src="images/j-keenan.png"
-                  class="align-self-center mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                </div>
-              </li>
-              <li class="media">
-                <img
-                  src="images/j-keenan.png"
-                  class="align-self-center mr-3"
-                  alt="..."
-                />
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                </div>
-              </li>
-            </ul>
-            <div class="card mb-2 mw-25">
-              <img
-                src="images/tech-academy.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">SPONSOR</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+                    <div class="card-body p-0">
+                        <p class="card-text card-text-customs h5 pt-3"><small class="text-muted">How Coronavirus Has Impacted Travelers of Color</small></p>
+                    </div>
             </div>
-            <h6>START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
-            <form>
-              <div class="form-group">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                />
-              </div>
-              <button type="button" class="btn btn-primary btn-lg btn-block">
-                FREE SIGN UP >
-              </button>
-            </form>
-            <div class="card mb-2 mw-25">
-              <img
-                src="images/infection-prevention-products-banner.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">RANKINGS</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+            <div class="card card-mw-767px">
+                <div class="position-relative text-center">
+                  <img class="card-img-top" src="images/just-mercy.png" alt="image">
+                  <div class="card-tag ml-n3 p-1">black lives matter</div>
+                </div>
+                    <div class="card-body p-0">
+                        <p class="card-text card-text-customs h5 pt-3"><small class="text-muted">A Resource Guide to Educate Yourself About Racial Injustice in America</small></p>
+                    </div>
             </div>
-            <div class="card mb-2 mw-25">
-              <img
-                src="images/addiction-treatment-centers-2020.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">BEST ADDICTION TREATMENT CENTERS</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+           
             </div>
+          </article>
+
+          <div
+            class="col-12 col-md-6 col-lg-6 order-9 order-md-6 order-lg-8 mr-lg-1 color-2"
+            >
+              <h1>TOP STORY-C</h1>
           </div>
-        </div>
-      </div>
+        </div>    
     </main>
     <footer class="container-fluid"></footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"oot
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
@@ -599,3 +297,39 @@
     ></script>
   </body>
 </html>
+
+<!-- <figure class="figure">
+              <div class="position-relative text-center w-100">
+                <img src="images/refugee-iraq-america.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="bg-story ml-n3 p-2  color-global-red">MY TURN</div>
+              </div>
+             <h5 class="text-lg-left font-weight-bold">'I'm an Iraqi Refugee Who Settled in the U.S. Now I Help Trauma Victims'</a></h5>
+              <figcaption class="figure-caption">People who do not agree with refugees may not realize that refugees are vulnerable, they are being forced to leave. Imagine living in a house, living normally and somebody comes in and says, "you need to leave within 24 hours".</figcaption>
+            </figure>
+
+            <figure class="figure">
+              <div class="position-relative text-center w-100">
+                <img src="images/harris-biden.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="bg-story ml-n3 p-2  color-global-red">U.S.</div>
+              </div>
+             <h5 class="text-lg-left font-weight-bold">Harris Rises To Top of Biden's VP List After Klobuchar's Strategic Exit</a></h5>
+              <figcaption class="figure-caption">Veterans of Democratic campaigns told Newsweek it's becoming increasingly difficult to make the case against creating a diverse ticket and identified Harris as the candidate best positioned to seize the moment.</figcaption>
+            </figure>
+
+            <figure class="figure">
+              <div class="position-relative text-center w-100">
+                <img src="images/turkey-strike-northern-iraq-pkk.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="bg-story ml-n3 p-2  color-global-red">WORLD</div>
+              </div>
+             <h5 class="text-lg-left font-weight-bold">Turkey Bombs Iraq, Syria, Targeting Kurdish Group It Says Trains Antifa</h5>
+              <figcaption class="figure-caption">Turkey has persisted in its military campaigns in Iraq and Syria, targeting a Kurdish militia it has accused of training members of the left-wing, international antifa movement involved in protests across the United States.</figcaption>
+            </figure>
+
+            <figure class="figure">
+              <div class="position-relative text-center w-100">
+                <img src="images/turkey-strike-northern-iraq-pkk.jpg" class="figure-img img-fluid w-100" alt="image">
+                <div class="bg-story ml-n3 p-2  color-global-red">WORLD</div>
+              </div>
+             <h5 class="text-lg-left font-weight-bold">Turkey Bombs Iraq, Syria, Targeting Kurdish Group It Says Trains Antifa</h5>
+              <figcaption class="figure-caption">Turkey has persisted in its military campaigns in Iraq and Syria, targeting a Kurdish militia it has accused of training members of the left-wing, international antifa movement involved in protests across the United States.</figcaption>
+            </figure> -->

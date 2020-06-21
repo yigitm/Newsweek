@@ -32,8 +32,88 @@
 
 body {
   min-width: 320px;
+  padding-top: 4rem !important;
 }
 
-.container-fluid > .container {
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* .container-fluid > .container {
   max-width: 1310px;
+} */
+
+.title-global {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.bg-global-red {
+  background-color: #f72210;
+}
+
+.color-global-blue {
+  color: #3581f4;
+}
+
+.color-global-red {
+  color: #f72210;
+}
+
+.fa-user,
+.fa-bars {
+  color: #fff;
+  padding-left: 0;
+  opacity: 0.75;
+}
+
+.btn-subscribe {
+  font-size: 11px;
+  line-height: 21px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background-color: #ffe400;
+}
+
+.img-tag,
+.card-tag,
+.card-tag-blm {
+  position: absolute;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.img-tag {
+  bottom: 8px;
+  left: 16px;
+  font-size: 17px;
+  line-height: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card-tag {
+  bottom: 0;
+  left: 16px;
+  font-size: 13px;
+  line-height: 12px;
+  background-color: #c2d4d7;
+}
+
+.card-text-customs {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 16px;
+  color: rgba(3, 3, 3, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .card-mw-767px {
+    min-width: 80%;
+  }
 }
