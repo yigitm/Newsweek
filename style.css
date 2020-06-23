@@ -30,18 +30,17 @@
   background-color: rgb(255, 210, 127);
 }
 
-body {
-  min-width: 320px;
-  padding-top: 4rem !important;
-}
-
 * {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* .container-fluid > .container {
+body,
+nav {
+  min-width: 320px;
   max-width: 1310px;
-} */
+  margin: auto;
+  padding-top: 3rem !important;
+}
 
 .title-global {
   font-size: 16px;
@@ -54,6 +53,10 @@ body {
 
 .bg-global-red {
   background-color: #f72210;
+}
+
+.bg-global-blue {
+  background-color: #3581f4;
 }
 
 .color-global-blue {
@@ -81,6 +84,7 @@ body {
   background-color: #ffe400;
 }
 
+.vs-tag,
 .img-tag,
 .card-tag,
 .card-tag-blm {
@@ -88,6 +92,11 @@ body {
   text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
+}
+
+.vs-tag {
+  bottom: -15px;
+  font-size: 14px;
 }
 
 .img-tag {
@@ -110,6 +119,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 16px;
   color: rgba(3, 3, 3, 0.5);
+}
+
+.w-custom {
+  width: 4rem;
+}
+
+.custom-hr-p {
+  padding: 0.1rem;
+}
+
+.custom-line-height {
+  line-height: 1.3rem;
+}
+
+.custom-mt-n6 {
+  margin-top: -9rem;
+}
+
+.custom-mt-n7 {
+  margin-top: -11rem;
+}
+
+.custom-font-size {
+  font-size: 15px;
 }
 
 @media screen and (max-width: 767px) {
