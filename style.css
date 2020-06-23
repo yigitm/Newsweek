@@ -121,8 +121,12 @@ nav {
   color: rgba(3, 3, 3, 0.5);
 }
 
-.w-custom {
+.custom-w {
   width: 4rem;
+}
+
+.custom-w-sign-up {
+  width: 20rem;
 }
 
 .custom-hr-p {
@@ -133,14 +137,6 @@ nav {
   line-height: 1.3rem;
 }
 
-.custom-mt-n6 {
-  margin-top: -9rem;
-}
-
-.custom-mt-n7 {
-  margin-top: -11rem;
-}
-
 .custom-font-size {
   font-size: 15px;
 }
@@ -149,4 +145,30 @@ nav {
   .card-mw-767px {
     min-width: 80%;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .custom-mt-n9 {
+    margin-top: -33rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .custom-mt-n6 {
+    margin-top: -7rem;
+  }
+
+  .custom-mt-n7 {
+    margin-top: -5rem;
+  }
+
+  .custom-mt-n8 {
+    margin-top: -35rem;
+  }
+}
+
+/* @media screen and (min-width: 992px) {
+  .custom-mh {
+    margin-bottom: 2rem;
+  } */
 }
