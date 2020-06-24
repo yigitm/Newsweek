@@ -15,60 +15,48 @@
     <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/bootstrap-reboot.css" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Newsweek</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar fixed-top navbar-expand-lg py-0 bg-global-red">
-          <img
-          class="w-25 ml-n3"
-          src="images/newsweek-logo.svg"
-          alt="images"
-        />
-        <div class="d-flex justify-content-center align-items-center">
-          <i class="fas fa-user mr-n2"></i>
-          <!-- toogle menubar -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarToggler"
-            aria-controls="navbarToggler"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
-            <button
-            type="button"
-            class="btn btn-sm btn-subscribe text-uppercase py-0 px-2 mr-3"
-            >
-            30 Day Free Trial <i class="fas fa-angle-right"></i>
-          </button>
-          <i class="fas fa-bars"></i>
-        </div>
-        
-        </button>
-        <div class="collapse navbar-collapse"></div>
-      </nav>
+    <header class="container-fluid p-0">
+
+<nav class="navbar navbar-expand-md bg-global-red py-0">
+  
+<div class="d-flex align-items-center p-0 my-n3">
+    <a class="nav-item d-none d-lg-flex"><span class="font-smaller font-weight-lighter text-white text-nowrap">Sun, June 21,2020</span></a>
+    <a class="navbar-brand" href="#">
+      <img class="w-25 ml-n2 custom-logo" src="images/newsweek.png" alt="image">
+    </a>
+    <a class="nav-item mr-1" href="#"><i class="fas fa-user d-md-none d-sm-block"></i></a>
+    <a class="d-flex mr-1 text-uppercase text-white font-weight-bold"> <span class="d-none d-md-block mt-1 py-5 font-weight-lighter">login</span>  
+      <span class="badge badge-pill align-self-center py-2 ml-2 text-dark text-uppercase font-weight-bold custom-badge">
+        30 Day Free Trial <i class="fas fa-angle-right"></i></span></a>
+    <a class="nav-item ml-1" href="#"><i class="d-lg-none fas fa-bars"></i></a>
+</div>
+    
+
+  
+</nav>
+
+    
+
     </header>
-    <nav class="container-fluid d-none d-lg-block">
-      <div
-        class="container d-flex align-content-center justify-content-around color-8"
-      >
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-        <span>Nav-Item</span>
-      </div>
-    </nav>
+    <nav class="nav text-center text-capitalize font-weight-bold">
+  <a class="nav-link text-dark border-right border-gray" href="#">u.s.</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">world</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">business</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">tech & science</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">culture</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">newsgeek</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">sports</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">health</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">the debate</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">vantage</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">weather</a>
+  <a class="nav-link text-dark border-right border-gray" href="#">search</a>
+</nav>
     <main class="container-fluid">
         <div class="row">
           <!-- feature-a -->
@@ -114,7 +102,7 @@
              
             <div class="position-relative mt-n1">
                 <hr class="border bg-light-gray custom-hr-h">
-                <div class="vs-tag rounded-circle p-2 offset-sm-6 offset-lg-5 text-white-50 bg-dark">vs</div>
+                <div class="vs-tag rounded-circle p-2 offset-5 offset-sm-6 offset-lg-5 text-white-50 bg-dark">vs</div>
             </div>
 
             <div class="media mt-n2">
@@ -129,7 +117,7 @@
           </article>
           <!-- feature-b -->
           <article
-            class="col-12 col-md-5 col-lg-3 order-3 order-md-3 order-lg-4 mt-n5"
+            class="col-12 col-md-5 col-lg-3 order-3 order-md-3 order-lg-4 custom-mt-n10"
           >
            <figure class="figure">
               <div class="position-relative text-center">
@@ -239,7 +227,7 @@
               <div class="media mb-2 border-bottom py-1">
                 <img class="custom-w mr-3 card-img" src="images/lindsay-gorman.png" alt="image">
               <div class="media-body align-self-start custom-line-height">
-                <p class="custom-font-size h6 mt-0 mb-1 text-capitalize font-weight-bold">Companies Like Zoom Must Choose: America or China</p>
+                <p class="custom-font-size h6 mt-0 mb-2 text-capitalize font-weight-bold">Companies Like Zoom Must Choose: America or China</p>
                 <p class="text-uppercase"><small><span class="text-muted font-weight-bold"><strong>by Lindsay Gorman</strong></span></small></p>
               </div>
             </div> 
@@ -405,19 +393,19 @@
           >
             <h1 class="title-global">my turn</h1>    
             <div class="card-group mb-3">
-              <div class="card card-mw-767px mr-3 border-0">
+              <div class="card card-mw-767px custom-w-card mr-3 border-0">
                   <img class="card-img-top" src="images/cancer-sarcoma-dance.jpg" alt="image">
                       <div class="card-body p-0">
                           <p class="card-text card-text-customs h5 pt-3"><small class="text-muted">'I Beat Cancer Twice, Toured The World And Now Have A Show In Vegas'</small></p>
                       </div>
               </div>
-              <div class="card card-mw-767px mr-3 border-0">
+              <div class="card card-mw-767px custom-w-card mr-3 border-0">
                   <img class="card-img-top" src="images/shipwreck-mexico-manuel-polanco.jpg" alt="image">
                       <div class="card-body p-0">
                           <p class="card-text card-text-customs h5 pt-3"><small class="text-muted">'I Discovered a 200-Year-Old Shipwreck Off the Coast of Mexico'</small></p>
                       </div>
               </div>
-              <div class="card card-mw-767px border-0">
+              <div class="card card-mw-767px custom-w-card border-0">
                   <img class="card-img-top" src="images/barbie-lockdown-parody-family.png" alt="image">
                       <div class="card-body p-0">
                           <p class="card-text card-text-customs h5 pt-3"><small class="text-muted">'I'm a Grandmother Re-creating Lockdown Life With My 'Quarantine Barbies''</small></p>
@@ -486,4 +474,4 @@
 </html>
 
 
-  
+  <!-- <nav class="navbar navbar-expand-lg fixed-top d-flex align-items-center justify-content-between bg-global-red mt-custom-n11 custom-mt-n10"></nav> -->

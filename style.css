@@ -39,7 +39,6 @@ nav {
   min-width: 320px;
   max-width: 1310px;
   margin: auto;
-  padding-top: 3rem !important;
 }
 
 .title-global {
@@ -67,6 +66,10 @@ nav {
   color: #f72210;
 }
 
+.custom-mt-n10 {
+  margin-top: -6rem;
+}
+
 .fa-user,
 .fa-bars {
   color: #fff;
@@ -74,13 +77,8 @@ nav {
   opacity: 0.75;
 }
 
-.btn-subscribe {
-  font-size: 11px;
-  line-height: 21px;
-  font-weight: bold;
+.custom-badge {
   cursor: pointer;
-  text-transform: uppercase;
-  border-radius: 20px;
   background-color: #ffe400;
 }
 
@@ -141,9 +139,9 @@ nav {
   font-size: 15px;
 }
 
-@media screen and (max-width: 767px) {
-  .card-mw-767px {
-    min-width: 80%;
+@media screen and (max-width: 768px) {
+  .custom-w-card {
+    min-width: 100%;
   }
 }
 
@@ -154,12 +152,23 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
+  .custom-logo {
+    min-width: 55%;
+    padding: 0;
+    margin-right: 8.5rem;
+    float: right;
+  }
+
+  .custom-bordef {
+    list-style-position: outside;
+  }
+
   .custom-mt-n6 {
-    margin-top: -7rem;
+    margin-top: -8rem;
   }
 
   .custom-mt-n7 {
-    margin-top: -5rem;
+    margin-top: -5.5rem;
   }
 
   .custom-mt-n8 {
