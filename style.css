@@ -36,8 +36,8 @@
 
 body,
 nav {
-  min-width: 320px;
   max-width: 1310px;
+  min-width: 320px;
   margin: auto;
 }
 
@@ -67,7 +67,7 @@ nav {
 }
 
 .custom-mt-n10 {
-  margin-top: -6rem;
+  margin-top: 0rem;
 }
 
 .fa-user,
@@ -139,39 +139,62 @@ nav {
   font-size: 15px;
 }
 
-@media screen and (max-width: 768px) {
-  .custom-w-card {
-    min-width: 100%;
-  }
+.custom-w-card,
+.custom-w-card2 {
+  min-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
+  .custom-mt-n7 {
+    margin-top: 0;
+  }
+
   .custom-mt-n9 {
-    margin-top: -33rem;
+    margin-top: -60rem;
+  }
+
+  .custom-w-card,
+  .custom-w-card2 {
+    min-width: 20%;
   }
 }
 
 @media screen and (min-width: 992px) {
   .custom-logo {
-    min-width: 55%;
+    min-width: 50%;
     padding: 0;
-    margin-right: 8.5rem;
+    margin-right: 11rem;
     float: right;
   }
 
-  .custom-bordef {
-    list-style-position: outside;
+  .custom-w-search {
+    min-width: 10%;
+  }
+
+  .custom-w-nav {
+  }
+
+  .custom-font-nav {
+    font-size: 19px;
   }
 
   .custom-mt-n6 {
-    margin-top: -8rem;
+    margin-top: -5rem;
   }
 
   .custom-mt-n7 {
-    margin-top: -5.5rem;
+    margin-top: -45rem;
   }
 
-  .custom-mt-n8 {
-    margin-top: -35rem;
+  .custom-mt-n9 {
+    margin-top: -106rem;
+  }
+
+  .custom-mt-n10 {
+    margin-top: -8rem;
+  }
+
+  .list-hover {
+    background-color: #f72210;
   }
 }
