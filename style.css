@@ -45,6 +45,10 @@ nav {
   margin: auto;
 }
 
+.body {
+  background-color: #f4f5f6;
+}
+
 .title-global {
   font-size: 16px;
   line-height: 16px;
@@ -113,7 +117,10 @@ nav a::before {
 .vs-tag,
 .img-tag,
 .card-tag,
-.card-tag-blm {
+.card-tag-blm,
+.card-tag-magazine,
+.card-tag-freedom,
+.card-tag-editor {
   position: absolute;
   text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif;
@@ -125,7 +132,8 @@ nav a::before {
   font-size: 14px;
 }
 
-.img-tag {
+.img-tag,
+.card-tag-editor {
   bottom: 8px;
   left: 16px;
   font-size: 17px;
@@ -133,12 +141,37 @@ nav a::before {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.card-tag {
+.card-tag,
+.card-tag-magazine {
   bottom: 0;
   left: 16px;
   font-size: 13px;
   line-height: 12px;
+}
+
+.card-tag {
   background-color: #c2d4d7;
+}
+
+.card-tag-magazine,
+.card-tag-freedom,
+.card-tag-editor {
+  bottom: 0;
+  left: 0;
+  font-size: 13px;
+  line-height: 1.5rem;
+}
+
+.card-tag-magazine {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card-tag-freedom {
+  background-color: #f72210;
+}
+
+.custom-text-red {
+  color: #f72210;
 }
 
 .card-text-customs {
@@ -149,6 +182,11 @@ nav a::before {
 
 .custom-w {
   width: 4rem;
+}
+
+.custom-w-magazine,
+.custom-w-editor {
+  min-width: 80%;
 }
 
 .custom-w-sign-up {
@@ -167,8 +205,7 @@ nav a::before {
   font-size: 15px;
 }
 
-.custom-w-card,
-.custom-w-card2 {
+.custom-w-card {
   min-width: 100%;
 }
 
@@ -185,9 +222,16 @@ nav a::before {
     margin-top: -60rem;
   }
 
-  .custom-w-card,
-  .custom-w-card2 {
+  .custom-w-card {
+    min-width: 5%;
+  }
+
+  .custom-w-magazine {
     min-width: 20%;
+  }
+
+  .custom-w-editor {
+    min-width: 40%;
   }
 
   .fa-bars {
@@ -201,18 +245,22 @@ nav a::before {
   }
 
   .custom-mt-n6 {
-    margin-top: -5rem;
+    margin-top: -9rem;
   }
 
   .custom-mt-n7 {
-    margin-top: -45rem;
+    margin-top: -42rem;
   }
 
   .custom-mt-n9 {
-    margin-top: -106rem;
+    margin-top: -100rem;
   }
 
   .custom-mt-n10 {
     margin-top: -8rem;
+  }
+
+  .custom-w-editor {
+    min-width: 20%;
   }
 }
