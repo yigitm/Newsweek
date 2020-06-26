@@ -30,6 +30,10 @@
   background-color: rgb(255, 210, 127);
 }
 
+html {
+  background-color: #f4f5f6;
+}
+
 * {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -66,8 +70,23 @@ nav {
   color: #f72210;
 }
 
-.custom-mt-n10 {
-  margin-top: 0rem;
+.custom-logo {
+  width: 25%;
+}
+
+nav a::before {
+  content: "";
+  width: 8%;
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f72210;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 22% 100%);
+}
+
+.custom-w-search {
+  width: 1rem;
 }
 
 .fa-user,
@@ -75,11 +94,20 @@ nav {
   color: #fff;
   padding-left: 0;
   opacity: 0.75;
+  font-size: 1rem;
 }
 
 .custom-badge {
   cursor: pointer;
   background-color: #ffe400;
+}
+
+.custom-font-nav {
+  font-size: 12px;
+}
+
+.nav a:hover {
+  color: #f72210;
 }
 
 .vs-tag,
@@ -145,6 +173,10 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+  .custom-font-nav {
+    font-size: 15px;
+  }
+
   .custom-mt-n7 {
     margin-top: 0;
   }
@@ -157,25 +189,15 @@ nav {
   .custom-w-card2 {
     min-width: 20%;
   }
+
+  .fa-bars {
+    font-size: 1.7rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .custom-logo {
-    min-width: 50%;
-    padding: 0;
-    margin-right: 11rem;
-    float: right;
-  }
-
-  .custom-w-search {
-    min-width: 10%;
-  }
-
-  .custom-w-nav {
-  }
-
-  .custom-font-nav {
-    font-size: 19px;
+    width: 35%;
   }
 
   .custom-mt-n6 {
@@ -192,9 +214,5 @@ nav {
 
   .custom-mt-n10 {
     margin-top: -8rem;
-  }
-
-  .list-hover {
-    background-color: #f72210;
   }
 }
