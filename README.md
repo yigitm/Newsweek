@@ -1,4 +1,4 @@
-##PROJECT: NEWSWEEK CLONE
+## PROJECT: NEWSWEEK CLONE
 
 This project consists of building a clone of [Newsweek](https://www.newsweek.com/) main landing page with Bootstrap 4.
 
