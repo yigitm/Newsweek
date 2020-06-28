@@ -1,16 +1,14 @@
 PROJECT: NEWSWEEK CLONE
 
-This project consists of building a clone of [NEWSWEEK](https://www.newsweek.com/) main landing page with provided tools by Bootstrap 4.
+This project consists of building a clone of [Newsweek](https://www.newsweek.com/) main landing page with provided tools by Bootstrap 4.
 
 ## Project Design:
 
-![Project Design](images/screenshot.png)
+![Project Design](images/drawing.svg)
 
 The goal is to make a mobile first, responsive clone of "Newsweek" web site.
 
 This landing page is designed & built with a combination of Bootstrap 4 framework and HTML & CSS features.
-
-You can find the original page design screenshot while building stage via: [this link](images/Tablet-newsweek-2020-06-21-13_10_13.png)
 
 ## Main Concepts :
 
@@ -30,6 +28,18 @@ You can find the original page design screenshot while building stage via: [this
 ## Live Demo :
 
 [Project Live Link](https://raw.githack.com/yigitm/Newsweek/feature-landing-page/index.html)
+
+## Getting Started
+
+To get a local copy of the repository please run the following commands on your terminal:
+
+```
+$ cd <folder>
+```
+
+```
+$ git clone git@github.com:yigitm/Newsweek.git
+```
 
 ## Authors :
 
