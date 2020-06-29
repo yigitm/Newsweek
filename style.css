@@ -42,8 +42,8 @@ nav {
   color: #f72210;
 }
 
-.custom-logo {
-  width: 25%;
+.custom-w-logo {
+  width: 10rem;
 }
 
 nav a::before {
@@ -59,6 +59,7 @@ nav a::before {
 
 .custom-w-search {
   width: 1rem;
+  right: 7rem;
 }
 
 .fa-user,
@@ -78,7 +79,11 @@ nav a::before {
   font-size: 12px;
 }
 
-.nav a:hover {
+.nav-item:hover {
+  text-decoration: none;
+}
+
+.nav-item span:hover {
   color: #f72210;
 }
 
@@ -177,6 +182,19 @@ nav a::before {
   min-width: 100%;
 }
 
+.custom-w-card-1 {
+  width: 6rem;
+}
+
+.custom-hover h5:hover {
+  cursor: pointer;
+  text-decoration: underline #f72210;
+}
+
+.custom-hover li:hover {
+  color: #f72210;
+}
+
 .custom-subscribe-bg {
   background-color: #f4f5f6;
 }
@@ -236,6 +254,10 @@ nav a::before {
     min-width: 40%;
   }
 
+  .custom-w-card-1 {
+    max-width: 43%;
+  }
+
   .custom-font-nav {
     font-size: 15px;
   }
@@ -256,8 +278,8 @@ nav a::before {
 }
 
 @media screen and (min-width: 992px) {
-  .custom-logo {
-    width: 35%;
+  .custom-w-logo {
+    width: 45%;
   }
 
   .custom-mt-n6 {
@@ -278,5 +300,9 @@ nav a::before {
 
   .custom-w-editor {
     min-width: 20%;
+  }
+
+  .custom-w-card-1 {
+    max-width: 32%;
   }
 }

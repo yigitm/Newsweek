@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/bootstrap-reboot.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.ico" />
     <link
       href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
       rel="stylesheet"
@@ -27,12 +28,25 @@
       <div
         class="navbar navbar-expand-lg align-items-center justify-content-between p-0 m-0"
       >
-        <a class="d-none d-lg-flex ml-4" href="#"
-          ><span class="font-smaller font-weight-lighter text-white text-nowrap"
-            >Sun, June 21,2020</span
-          ></a
-        >
-        <img class="mr-n5 custom-logo" src="images/newsweek.png" alt="image" />
+        <div class="d-flex flex-column">
+          <a class="d-none d-lg-flex ml-4" href="#"
+            ><span
+              class="font-smaller font-weight-lighter text-white text-nowrap"
+              >32 Microverse, TR</span
+            ></a
+          >
+          <a class="d-none d-lg-flex ml-4" href="#"
+            ><span
+              class="font-smaller font-weight-lighter text-white text-nowrap"
+              >Sun, June 21,2020 <i class="fas fa-angle-right"></i></span
+          ></a>
+        </div>
+
+        <img
+          class="mr-n5 custom-w-logo"
+          src="images/newsweek.png"
+          alt="image"
+        />
         <div class="d-flex align-items-center">
           <a class="mr-1" href="#"
             ><i class="fas fa-user d-md-none d-sm"></i
@@ -56,7 +70,7 @@
       </div>
     </header>
     <nav
-      class="d-none d-lg-flex navbar py-3 text-center text-capitalize font-weight-bold border-bottom"
+      class="d-none d-lg-flex navbar py-3 text-center text-capitalize font-weight-bold border-bottom custom-hover"
     >
       <a class="nav-item text-dark" href="#"
         ><span class="border-right pr-2 ">u.s.</span></a
@@ -91,20 +105,22 @@
       <a class="nav-item ml-n2 text-dark" href="#"
         ><span class="pr-2">weather</span></a
       >
-      <a
-        class="nav-item d-inline-flex text-muted font-weight-lighter mr-5 pr-5"
-        href="#"
-        ><span class="pr-1">search</span
-        ><img
-          class="custom-w-search"
-          src="images/icon-search-glass.svg"
-          alt="image"
-      /></a>
+      <input
+        class="position-relative d-inline-flex text-muted font-weight-lighter border-0"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      /><img
+        class="position-absolute custom-w-search"
+        src="images/icon-search-glass.svg"
+        alt="image"
+      />
     </nav>
 
     <main class="container-fluid pt-3 border">
-      <!-- feature-a -->
+      <!-- main articles -->
       <article class="row">
+        <!-- feature-a -->
         <div class="col-12 col-md-5 col-lg-3 order-2 order-md-1 order-lg-1">
           <h6 class="title-global">featured stories</h6>
           <figure class="figure w-100">
@@ -1358,6 +1374,407 @@
           </div>
         </section>
       </article>
+      <!-- category news -->
+      <article class="row custom-hover">
+        <h6 class="col-12 mt-3 font-weight-bold color-global-red">U.S.</h6>
+        <div class="col-12 col-md-4 card border-0">
+          <img
+            src="images/texas-coronavirus-testing.jpg"
+            class="card-img-top"
+            alt="image"
+          />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              Texas Medical Center Deletes ICU Data Amid State's Coronavirus
+              Spike
+            </h5>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 card border-0">
+          <img src="images/mississippi.jpg" class="card-img-top" alt="image" />
+          <div class="card-body px-0 custom-mw-card">
+            <h5 class="card-title font-weight-bold">
+              'Change is Hard' Mississippi Rep. Says of State's Confederate Flag
+              Removal
+            </h5>
+          </div>
+        </div>
+        <!-- media list -->
+        <ul class="col-12 col-md-4 col-lg-4 list-unstyled border-bottom">
+          <li class="media border-bottom pb-3">
+            <img
+              src="images/powerball.jpg"
+              class="mr-3 custom-w-card-1"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Powerball Numbers for 6/27/20: Did Anyone Win Jackpot on
+                Saturday Night?
+              </h6>
+            </div>
+          </li>
+          <li class="media my-4 border-bottom pb-3">
+            <img
+              src="images/black-americans-hospitalization-rate-survey.jpg"
+              class="mr-3 custom-w-card-1"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Why Black Americans Experience Higher COVID Hospitalization
+                Rate: Study
+              </h6>
+            </div>
+          </li>
+          <li class="media my-4 border-bottom pb-3">
+            <img
+              src="images/california-business-closures.jpg"
+              class="mr-3"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Coronavirus Hospitalizations Peak in California and Texas as
+                Cases Soar
+              </h6>
+            </div>
+          </li>
+        </ul>
+
+        <h5 class="col-12 mt-3 font-weight-bold color-global-red">World</h5>
+        <div class="col-12 col-md-4 card border-0">
+          <img src="images/matera-italy.jpg" class="card-img-top" alt="image" />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              Coronavirus-Free Town in Italy Worries About European Visitors in
+              Reopening
+            </h5>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 card border-0">
+          <img
+            src="images/delta-airlines-plane-parked.jpg"
+            class="card-img-top"
+            alt="image"
+          />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              E.U. Bars Travelers From U.S. in Another Major Blow to Airline
+              Industry
+            </h5>
+          </div>
+        </div>
+        <!-- media list -->
+        <ul class="col-12 col-md-4 col-lg-4 list-unstyled">
+          <li class="media border-bottom pb-3">
+            <img
+              src="images/rim-pacific-rimpac-2018-exercise.jpg"
+              class="mr-3 custom-w-card-1"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                U.S. Act May See Taiwan Replace China at World's Largest Naval
+                Games
+              </h6>
+            </div>
+          </li>
+          <li class="media my-4 border-bottom pb-3">
+            <img
+              src="images/metropolitan-police-officers.jpg"
+              class="mr-3"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Police Officers Arrested Over 'Inappropriate' Photos of Murdered
+                Sisters
+              </h6>
+            </div>
+          </li>
+          <li class="media border-bottom pb-3">
+            <img
+              src="images/black-lives-matter-protest-wales.jpg"
+              class="mr-3"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Former Mayor Resigns After Comparing BLM Protesters to Monkeys
+                in FB Post
+              </h6>
+            </div>
+          </li>
+        </ul>
+
+        <h5 class="col-12 mt-3 font-weight-bold color-global-red">Business</h5>
+        <div class="col-12 col-md-4 card border-0">
+          <img
+            src="images/good-list-banner.jpg"
+            class="card-img-top"
+            alt="image"
+          />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              In Good Company: 50 U.S. Businesses That Stood Out During the
+              Pandemic
+            </h5>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 card border-0">
+          <img
+            src="images/us-airlines-flight-booking-changes.jpg"
+            class="card-img-top"
+            alt="image"
+          />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              Several Airlines Booking to Full Capacity Prompt Concerns Over
+              COVID-19
+            </h5>
+          </div>
+        </div>
+        <!-- media list -->
+        <ul class="col-12 col-md-4 col-lg-4 list-unstyled">
+          <li class="media border-bottom pb-3">
+            <img
+              src="images/larry-kudlow-trump-second-stimulus.jpg"
+              class="mr-3 custom-w-card-1"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                New Stimulus Will Help Businesses, Not Individuals: White House
+                Adviser
+              </h6>
+            </div>
+          </li>
+          <li class="media my-4 border-bottom pb-3">
+            <img
+              src="images/newsguard-childrenshealthdefenseorg.png"
+              class="mr-3"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                False stories in effort to delegitimize Black Lives Matter
+              </h6>
+            </div>
+          </li>
+          <li class="media border-bottom pb-3">
+            <img src="images/board-room.jpg" class="mr-3" alt="image" />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                The 20 Largest Public U.S. Companies Without a Black Person On
+                Their Boardß
+              </h6>
+            </div>
+          </li>
+        </ul>
+
+        <h5 class="col-12 mt-3 font-weight-bold color-global-red">
+          Tech & Science
+        </h5>
+        <div class="col-12 col-md-4 card border-0">
+          <img src="images/atom.jpg" class="card-img-top" alt="image" />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              Mysterious Spike in Radioactive Substances Detected Above Northern
+              Europe
+            </h5>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 card border-0">
+          <img
+            src="images/fires-siberia.jpg"
+            class="card-img-top"
+            alt="image"
+          />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              Siberia is on Fire With Arctic Temperatures Reaching 100 Degrees:
+              Why?
+            </h5>
+          </div>
+        </div>
+        <!-- media list -->
+        <ul class="col-12 col-md-4 col-lg-4 list-unstyled">
+          <li class="media border-bottom pb-3">
+            <img
+              src="images/sun.jpg"
+              class="mr-3 custom-w-card-1"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Global Magnetic Anomaly Detected During Deep Solar Minimum
+              </h6>
+            </div>
+          </li>
+          <li class="media my-4 border-bottom pb-3">
+            <img src="images/donald-trump.jpg" class="mr-3" alt="image" />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Parler Surges on App Store as Founder Claims Victory Over 'Tech
+                Tyrants'
+              </h6>
+            </div>
+          </li>
+          <li class="media border-bottom pb-3">
+            <img
+              src="images/nasa-artemis-program.jpg"
+              class="mr-3"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                NASA Launches $35,000 Prize to Design Futuristic Toilet for Moon
+                Mission
+              </h6>
+            </div>
+          </li>
+        </ul>
+
+        <h5 class="col-12 mt-3 font-weight-bold color-global-red">
+          Culture
+        </h5>
+        <div class="col-12 col-md-4 card border-0">
+          <img
+            src="images/eurovision-rachel-mcadams-really-singing.jpg"
+            class="card-img-top"
+            alt="image"
+          />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              Here's Which 'Eurovision' Stars Are Really Singing in the Netflix
+              Movie
+            </h5>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 card border-0">
+          <img
+            src="images/jk-rowling-stephen-king.jpg"
+            class="card-img-top"
+            alt="image"
+          />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              J.K. Rowling Deletes Stephen King Praise After He Supports Trans
+              Women
+            </h5>
+          </div>
+        </div>
+        <!-- media list -->
+        <ul class="col-12 col-md-4 col-lg-4 list-unstyled">
+          <li class="media border-bottom pb-3">
+            <img
+              src="images/peep-show-blackface.jpg"
+              class="mr-3 custom-w-card-1"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Netflix Removes Blackface Scene from British Comedy 'Peep Show'
+              </h6>
+            </div>
+          </li>
+          <li class="media my-4 border-bottom pb-3">
+            <img
+              src="images/michelle-mcnamara-golden-state-killer.jpg"
+              class="mr-3"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                'I'll Be Gone in the Dark' Explores Michelle McNamara's Hunt for
+                a Killer
+              </h6>
+            </div>
+          </li>
+          <li class="media border-bottom pb-3">
+            <img src="images/band-brothers.jpg" class="mr-3" alt="image" />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                'Band of Brothers' Writer's Anti-Trump Ad Says Reopening
+                Threatens Veterans
+              </h6>
+            </div>
+          </li>
+        </ul>
+
+        <h5 class="col-12 mt-3 font-weight-bold color-global-red">
+          Sports
+        </h5>
+        <div class="col-12 col-md-4 card border-0">
+          <img
+            src="images/rudy-gobert-utah-jazz.jpg"
+            class="card-img-top"
+            alt="image"
+          />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              Rudy Gobert Says It Could Take a Year for His Sense of Smell to
+              Return
+            </h5>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 card border-0">
+          <img
+            src="images/cam-newton-carolina-panthers.jpg"
+            class="card-img-top"
+            alt="image"
+          />
+          <div class="card-body px-0">
+            <h5 class="card-title font-weight-bold">
+              Cam Newton Signing With Patriots Sees New England's Super Bowl
+              Odds Surge
+            </h5>
+          </div>
+        </div>
+        <!-- media list -->
+        <ul class="col-12 col-md-4 col-lg-4 list-unstyled">
+          <li class="media border-bottom pb-3">
+            <img
+              src="images/cam-newton.jpg"
+              class="mr-3 custom-w-card-1"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Cam Newton Must Outplay Another Former Auburn QB To Become
+                Patriots Starter
+              </h6>
+            </div>
+          </li>
+          <li class="media my-4 border-bottom pb-3">
+            <img
+              src="images/drew-gulak-aj-styles-wwe-smackdown.jpg"
+              class="mr-3"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                Drew Gulak Wants Intercontinental Championship For a Better
+                SmackDown
+              </h6>
+            </div>
+          </li>
+          <li class="media border-bottom pb-3">
+            <img
+              src="images/wwe-performance-center-nxt.jpg"
+              class="mr-3"
+              alt="image"
+            />
+            <div class="media-body">
+              <h6 class="mt-0 mb-1 font-weight-bold">
+                WWE to Continue Testing Amid Reports of Multiple Positive
+                COVID-19 Cases
+              </h6>
+            </div>
+          </li>
+        </ul>
+      </article>
       <!-- subcribe & newsletter -->
       <div class="row mt-5">
         <div class="col-12 col-md-12 col-lg-7 mb-3">
@@ -1428,8 +1845,8 @@
     </main>
 
     <footer class="container-fluid mt-3 border-top">
-      <div class="row border-bottom mt-3">
-        <div class="col-12 col-md-10 d-flex align-items-baseline">
+      <div class="d-flex flex-column flex-md-row border-bottom mt-3 py-0">
+        <div class="d-flex align-items-baseline">
           <img class="w-25" src="images/Newsweek-logo.png" alt="image" />
           <p class="">
             <span class="ml-3 font-smaller font-weight-lighter text-uppercase"
@@ -1438,7 +1855,7 @@
           </p>
         </div>
 
-        <div class="col-12 col-md-2 d-flex text-muted">
+        <div class="d-flex text-muted mb-3">
           <i class="fab fa-facebook-square mr-2"></i>
           <i class="fab fa-twitter mr-2"></i>
           <i class="fab fa-instagram-square mr-2"></i>
@@ -1447,7 +1864,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="container p-0 m-0">
         <ul class="nav d-flex text-capitalize text-muted custom-footer">
           <li class="nav-link border-right">u.s. edition</li>
           <li class="nav-link border-right">日本</li>
