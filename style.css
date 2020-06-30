@@ -234,12 +234,12 @@ nav a::before {
 }
 
 @media screen and (min-width: 768px) {
-  .custom-mt-n7 {
-    margin-top: 0;
+  .custom-mt-n6 {
+    margin-top: -15rem;
   }
 
-  .custom-mt-n9 {
-    margin-top: -60rem;
+  .custom-mt-n7 {
+    margin-top: -6rem;
   }
 
   .custom-w-card {
@@ -283,19 +283,11 @@ nav a::before {
   }
 
   .custom-mt-n6 {
-    margin-top: -5rem;
-  }
-
-  .custom-mt-n7 {
-    margin-top: -36rem;
-  }
-
-  .custom-mt-n9 {
-    margin-top: -100rem;
+    margin-top: -16rem;
   }
 
   .custom-mt-n10 {
-    margin-top: -8rem;
+    margin-top: -7.5rem;
   }
 
   .custom-w-editor {
