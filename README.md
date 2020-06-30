@@ -27,7 +27,7 @@ This landing page is designed & built with a combination of Bootstrap 4 framewor
 
 ## Live Demo :
 
-[Project Live Link](https://raw.githack.com/yigitm/Newsweek/feature-landing-page/index.html)
+[Project Live Link](https://yigitm.github.io/Newsweek/)
 
 ## Getting Started
 
