@@ -482,15 +482,11 @@
                   <strong>start your day with our top 5 articles</strong>
                 </p>
               </div>
-              <form>
-                <div class="form">
-                  <input
-                    type="email"
-                    class="form"
-                    placeholder="Email address"
-                  />
-                </div>
-              </form>
+              <input
+                type="text"
+                class="form-control mb-3"
+                placeholder="Email address"
+              />
               <button
                 type="button"
                 class="btn btn-block mt-2 bg-global-red text-white mb-3"
@@ -1654,26 +1650,28 @@
         </ul>
       </article>
       <!-- subcribe & newsletter -->
-      <div class="row mt-5">
+      <div class="row">
         <div class="col-12 col-md-12 col-lg-7 mb-3">
           <h6 class="color-global-red text-uppercase font-weight-bold">
             subscribe
           </h6>
-          <div class="d-flex align-items-center py-5 custom-subscribe-bg">
-            <div class="position-relative offset-4 offset-md-0">
+          <div
+            class="d-flex flex-column flex-md-row align-items-center justify-content-center p-5 custom-subscribe-bg"
+          >
+            <div class="position-sticky">
               <img
-                class="position-relative"
+                class="position-relative custom-subscribe-img custom-subscribe-images"
                 src="images/cover-june-19-26-2020-small.jpg"
                 alt="image"
               />
               <img
-                class="position-absolute custom-subscribe-img"
+                class="position-absolute custom-subscribe-img-top custom-subscribe-images"
                 src="images/cover-july-03-2020.jpg"
                 alt="image"
               />
             </div>
 
-            <div class="align-items-start custom-subscribe-text">
+            <div class="custom-subscribe-text mw-100">
               <h6 class="text-capitalize font-weight-bold">
                 in-depth stories you don't see elsewhere about topics you want
                 to read!

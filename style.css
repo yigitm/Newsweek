@@ -6,8 +6,7 @@ html {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-body,
-nav {
+body {
   max-width: 1310px;
   min-width: 320px;
   margin: auto;
@@ -199,15 +198,17 @@ nav a::before {
   background-color: #f4f5f6;
 }
 
-.custom-subscribe-img {
-  left: 5rem;
+.custom-subscribe-img-top {
+  left: 2rem;
   top: 1rem;
+}
+
+.custom-subscribe-img {
+  right: 3rem;
 }
 
 .custom-subscribe-text:not(.custom-btn) {
   z-index: 1;
-  margin-top: 14rem;
-  margin-left: -20rem;
   text-align: center;
 }
 
@@ -238,10 +239,6 @@ nav a::before {
     margin-top: -15rem;
   }
 
-  .custom-mt-n7 {
-    margin-top: -6rem;
-  }
-
   .custom-w-card {
     min-width: 5%;
   }
@@ -266,8 +263,12 @@ nav a::before {
     font-size: 1.7rem;
   }
 
-  .custom-subscribe {
-    padding: 0;
+  .custom-subscribe-img-top {
+    left: 5rem;
+  }
+
+  .custom-subscribe-img {
+    left: 0;
   }
 
   .custom-subscribe-text:not(.custom-btn) {
@@ -284,6 +285,10 @@ nav a::before {
 
   .custom-mt-n6 {
     margin-top: -16rem;
+  }
+
+  .custom-mt-n7 {
+    margin-top: -6rem;
   }
 
   .custom-mt-n10 {
