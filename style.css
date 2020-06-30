@@ -1,0 +1,305 @@
+html {
+  background-color: #f4f5f6;
+}
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  max-width: 1310px;
+  min-width: 370px;
+  margin: auto;
+}
+
+.body {
+  background-color: #f4f5f6;
+}
+
+.title-global {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.bg-global-red {
+  background-color: #f72210;
+}
+
+.bg-global-blue {
+  background-color: #3581f4;
+}
+
+.color-global-blue {
+  color: #3581f4;
+}
+
+.color-global-red {
+  color: #f72210;
+}
+
+.custom-w-logo {
+  width: 10rem;
+}
+
+nav a::before {
+  content: "";
+  width: 8%;
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f72210;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 22% 100%);
+}
+
+.custom-w-search {
+  width: 1rem;
+  right: 7rem;
+}
+
+.fa-user,
+.fa-bars {
+  color: #fff;
+  padding-left: 0;
+  opacity: 0.75;
+  font-size: 1rem;
+}
+
+.custom-badge {
+  cursor: pointer;
+  background-color: #ffe400;
+}
+
+.custom-font-nav {
+  font-size: 12px;
+}
+
+.nav-item:hover {
+  text-decoration: none;
+}
+
+.nav-item span:hover {
+  color: #f72210;
+}
+
+.vs-tag,
+.img-tag,
+.card-tag,
+.card-tag-blm,
+.card-tag-magazine,
+.card-tag-freedom,
+.card-tag-editor {
+  position: absolute;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.vs-tag {
+  bottom: -15px;
+  font-size: 14px;
+}
+
+.img-tag,
+.card-tag-editor {
+  bottom: 8px;
+  left: 16px;
+  font-size: 17px;
+  line-height: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card-tag,
+.card-tag-magazine {
+  bottom: 0;
+  left: 16px;
+  font-size: 13px;
+  line-height: 12px;
+}
+
+.card-tag {
+  background-color: #c2d4d7;
+}
+
+.card-tag-magazine,
+.card-tag-freedom,
+.card-tag-editor {
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+.card-tag-magazine {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card-tag-freedom {
+  background-color: #f72210;
+}
+
+.custom-text-red {
+  color: #f72210;
+}
+
+.card-text-customs {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 16px;
+  color: rgba(3, 3, 3, 0.5);
+}
+
+.custom-w {
+  width: 4rem;
+}
+
+.custom-w-magazine,
+.custom-w-editor {
+  min-width: 80%;
+}
+
+.custom-w-sign-up {
+  width: 20rem;
+}
+
+.custom-hr-p {
+  padding: 0.1rem;
+}
+
+.custom-line-height {
+  line-height: 1.3rem;
+}
+
+.custom-font-size {
+  font-size: 15px;
+}
+
+.custom-w-card {
+  min-width: 100%;
+}
+
+.custom-w-card-1 {
+  width: 6rem;
+}
+
+.custom-hover h5:hover {
+  cursor: pointer;
+  text-decoration: underline #f72210;
+}
+
+.custom-hover li:hover {
+  color: #f72210;
+}
+
+.custom-subscribe-bg {
+  background-color: #f4f5f6;
+}
+
+.custom-subscribe-img-top {
+  left: 2rem;
+  top: 1rem;
+}
+
+.custom-subscribe-img {
+  right: 3rem;
+}
+
+.custom-subscribe-text:not(.custom-btn) {
+  z-index: 1;
+  text-align: center;
+}
+
+.custom-img-signup {
+  background-image: url(images/starting5-homepage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 0.1rem top -7px;
+  min-width: 25%;
+}
+
+.fa-facebook-square,
+.fa-twitter,
+.fa-instagram-square,
+.fa-tumblr,
+.fa-linkedin-in {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.custom-footer li:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .custom-mt-n6 {
+    margin-top: -15rem;
+  }
+
+  .custom-w-card {
+    min-width: 5%;
+  }
+
+  .custom-w-magazine {
+    min-width: 20%;
+  }
+
+  .custom-w-editor {
+    min-width: 40%;
+  }
+
+  .custom-w-card-1 {
+    max-width: 43%;
+  }
+
+  .custom-font-nav {
+    font-size: 15px;
+  }
+
+  .fa-bars {
+    font-size: 1.7rem;
+  }
+
+  .custom-subscribe-img-top {
+    left: 5rem;
+  }
+
+  .custom-subscribe-img {
+    left: 0;
+  }
+
+  .custom-subscribe-text:not(.custom-btn) {
+    margin-top: 0;
+    margin-left: 5.5rem;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .custom-w-logo {
+    width: 45%;
+  }
+
+  .custom-mt-n6 {
+    margin-top: -16rem;
+  }
+
+  .custom-mt-n7 {
+    margin-top: -6rem;
+  }
+
+  .custom-mt-n10 {
+    margin-top: -7.5rem;
+  }
+
+  .custom-w-editor {
+    min-width: 20%;
+  }
+
+  .custom-w-card-1 {
+    max-width: 32%;
+  }
+}
