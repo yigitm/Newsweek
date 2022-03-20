@@ -1,12 +1,10 @@
 ## PROJECT: NEWSWEEK CLONE
 
-This project consists of building a clone of [Newsweek](https://www.newsweek.com/) main landing page with Bootstrap 4.
+The goal is to make a mobile first, responsive clone of [Newsweek](https://www.newsweek.com/) main landing page with Bootstrap.
 
 ## Project Design:
 
 ![Project Design](images/drawing.svg)
-
-The goal is to make a mobile first, responsive clone of "Newsweek" web site.
 
 This landing page is designed & built with a combination of Bootstrap 4 framework and HTML & CSS features.
 
@@ -14,8 +12,8 @@ This landing page is designed & built with a combination of Bootstrap 4 framewor
 
 - This project covers the following Bootstrap 4, HTML and CSS3 concepts.
 - Main responsive layout is created with Bootstrap.
-- Except the specific sections / areas; I focused to use Bootstrap 4 CSS classes.
-- Two main breakpoint is used for reponsive design: min-width: 768px. & min-width: 992px.
+- Except for the specific sections / areas; I focused to use Bootstrap 4 CSS classes.
+- Two main breakpoint is used for responsive design: min-width: 768px. & min-width: 992px.
 - Fixed, relative, absolute positionings are used for some positioning needs.
 
 ## Built With :
